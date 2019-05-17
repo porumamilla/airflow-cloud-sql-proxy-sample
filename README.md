@@ -9,6 +9,6 @@ This project is created to demonstrate how to export the data from Cloud SQL to 
 2) Create the credentials from Service account json file </br>
 kubectl create secret generic service-account-token --from-file=credentials.json=./service-account.json
 
-3) Under root of this project you can file
+3) Clone the project in CloudShell and under root of this project you can find the file sqlproxy-deployment.yaml and deploy it using the following command
 
 kubectl apply -f sqlproxy-deployment.yaml
