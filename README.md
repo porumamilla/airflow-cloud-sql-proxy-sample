@@ -4,7 +4,7 @@ This project is created to demonstrate how to export the data from Cloud SQL to 
 ## Steps to create the Cloud SQL export to GCS from Google composer
 
 1) First login on to GKE cluster 
-![alt text](images/Screen Shot 2019-05-17 at 3.02.35 PM.png) 
+![alt text](https://github.com/porumamilla/airflow-cloud-sql-proxy-sample/blob/master/images/Screen%20Shot%202019-05-17%20at%203.02.35%20PM.png) 
 
 1) Create the credentials from Service account json file
 kubectl create secret generic service-account-token --from-file=credentials.json=./service-account.json
