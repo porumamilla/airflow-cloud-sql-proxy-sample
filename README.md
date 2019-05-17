@@ -17,3 +17,6 @@ kubectl create secret generic service-account-token --from-file=credentials.json
 
 6) Configure the My SQL connection like the following and the copy the Cluster IP into the Host field
 ![alt text](https://github.com/porumamilla/airflow-cloud-sql-proxy-sample/blob/master/images/Screen%20Shot%202019-05-17%20at%203.24.23%20PM.png) 
+
+7) Configure the GCP connection like the following. Please enter your GCP project ID and serice account JSON string 
+![alt text](https://github.com/porumamilla/airflow-cloud-sql-proxy-sample/blob/master/images/Screen%20Shot%202019-05-17%20at%203.28.28%20PM.png) 
