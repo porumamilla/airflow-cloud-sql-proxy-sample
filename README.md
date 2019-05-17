@@ -27,7 +27,7 @@ kubectl create secret generic service-account-token --from-file=credentials.json
 Following schema is used in Cloud SQL
 
 | Field           | Type         | Null | Key | Default | Extra |
-+-----------------|--------------|------|-----|---------|-------|
+|-----------------|--------------|------|-----|---------|-------|
 | id              | int(11)      | NO   | PRI | NULL    |       |
 | name            | varchar(255) | YES  |     | NULL    |       |
 | ship_to_address | varchar(255) | YES  |     | NULL    |       |
