@@ -24,7 +24,7 @@ kubectl create secret generic service-account-token --from-file=credentials.json
 8) Once you have successfully configured the above steps and please copy the dag file from dag folder in this project to airflow dag folder. 
 
 ## CloudSQL table used in dag 
-Following schema is used in Cloud SQL
+Following supplier table is used in Cloud SQL
 
 | Field           | Type         | Null | Key | Default | Extra |
 |-----------------|--------------|------|-----|---------|-------|
