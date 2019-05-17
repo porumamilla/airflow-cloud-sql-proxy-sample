@@ -10,3 +10,8 @@ This project is created to demonstrate how to export the data from Cloud SQL to 
 kubectl create secret generic service-account-token --from-file=credentials.json=./service-account.json
 
 3) Clone the project in CloudShell and under root of this project you can find the file sqlproxy-deployment.yaml and deploy it using the following command <br/>kubectl apply -f sqlproxy-deployment.yaml
+
+4) Under root of this project you can find the file sqlproxy-services.yaml and deploy it using the following command <br/>kubectl apply -f sqlproxy-services.yaml
+
+5) Once the you deploy the service for SQL proxy please run the following command to get the Cluster IP <br/>kubectl get services <br>You will see something like "sqlproxy-service-database1   ClusterIP   xx.xx.xxx.xxx". Note down this ip so that we can use this in Composer connections
+
