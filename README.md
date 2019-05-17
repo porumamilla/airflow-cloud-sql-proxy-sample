@@ -15,5 +15,5 @@ kubectl create secret generic service-account-token --from-file=credentials.json
 
 5) Once the you deploy the service for SQL proxy please run the following command to get the Cluster IP <br/> kubectl get services <br/> You will see something like "sqlproxy-service-database1   ClusterIP   xx.xx.xxx.xxx". Note down this ip so that we can use this in Composer connections
 
-6) Configure the My SQL connection like the following 
+6) Configure the My SQL connection like the following and the copy the Cluster IP into the Host field
 ![alt text](https://github.com/porumamilla/airflow-cloud-sql-proxy-sample/blob/master/images/Screen%20Shot%202019-05-17%20at%203.24.23%20PM.png) 
